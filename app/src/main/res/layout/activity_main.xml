@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="100"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragmentSpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <Button
+        android:id="@+id/prettifiedStringButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prettified_string"
+        android:layout_margin="2dp"
+        />
+    <Button
+        android:id="@+id/lessThan5KButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/less_than_5000_followers"
+        android:layout_margin="2dp"
+        />
+    <Button
+        android:id="@+id/lessThan1KButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/less_than_1000_contributions"
+        android:layout_margin="2dp"
+        />
+    <Button
+        android:id="@+id/groupContributorsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/group_contributors"
+        android:layout_margin="2dp"
+        />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

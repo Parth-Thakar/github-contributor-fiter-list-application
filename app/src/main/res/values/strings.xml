@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GithubCoroutine_rsl</string>
+    <string name="prettified_string">prettified String</string>
+    <string name="less_than_5000_followers">less than 5000 followers</string>
+    <string name="less_than_1000_contributions">less than 1000 contributions</string>
+    <string name="group_contributors">Group contributors</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preetified_strings">Preetified Strings</string>
+    <string name="prettified_strings">Prettified Strings</string>
+    <string name="group_contributorss">Group Contributors</string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="null_string_replacement">0</string>
+    <string name="zero_contribution">0 Contribution</string>
+    <string name="null_check">null</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="has_made_template_text">\" has made \"</string>
+    <string name="prettified_string_bundle_key">prettifiedString</string>
+    <string name="group_1_text">0 - 5k</string>
+    <string name="group_2_text">5k - 10k</string>
+    <string name="group_3_text">10k - 15k</string>
+    <string name="group_4_text">15k - 20k</string>
+    <string name="group_5_text">20k - 25k</string>
+    <string name="group_6_text">25k - 30k</string>
+    <string name="bundle_key">prettifiedString</string>
+</resources>
